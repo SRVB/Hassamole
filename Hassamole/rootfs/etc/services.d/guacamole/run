@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bashio
+#shellcheck shell=bash
+
+until pg_isready; do
+    bashio::log.notice "Waiting for postgres to come up..."
+    sleep 1
+done
+
+bashio::log.info "Starting guacamole client..."
+cd "${CATALINA_HOME}/bin" || exit
+s6-setuidgid root sh catalina.sh run

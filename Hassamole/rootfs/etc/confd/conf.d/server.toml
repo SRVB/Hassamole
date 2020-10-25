@@ -1,0 +1,6 @@
+[template]
+src = "server.xml.tmpl"
+dest = "/opt/tomcat/conf/server.xml"
+keys = [
+  "INGRESS_PORT",
+]

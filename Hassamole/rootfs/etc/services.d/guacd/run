@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bashio
+#shellcheck shell=bash
+
+bashio::log.info "Starting guacd..."
+s6-setuidgid root guacd -f

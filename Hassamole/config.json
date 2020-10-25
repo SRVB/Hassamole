@@ -1,0 +1,25 @@
+{
+  "name": "Hassamole",
+  "version": "0.1",
+  "stage": "experimental",
+  "slug": "hassamole",
+  "description": "Apache Guacamole clientless remote desktop gateway",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "tmpfs": "size=50m,uid=0,rw",
+  "ingress": true,
+  "host_network": true,
+  "panel_icon": "mdi:remote-desktop",
+  "panel_title": "Remote Dektop",
+  "options": {
+    "extensions": {
+      "guacamole-auth-quickconnect": true
+    }
+  },
+  "schema": {
+    "extensions": {
+      "guacamole-auth-quickconnect": "bool"
+    }
+  }
+}

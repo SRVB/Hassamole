@@ -1,0 +1,7 @@
+[template]
+src = "guacamole.properties.tmpl"
+dest = "/data/guacamole/guacamole.properties"
+keys = [
+  "DB_NAME",
+  "DB_USER",
+]
