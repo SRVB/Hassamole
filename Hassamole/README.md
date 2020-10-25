@@ -1,3 +1,3 @@
-# Hassamole HassOS Addon
+# Hassamole HassOS Add-on: Apache Guacamole
 
-Apache Guacamole Addon for HassOS
+[Apache Guacamole](https://guacamole.apache.org/) Addon for HassOS Addon for HassOS
