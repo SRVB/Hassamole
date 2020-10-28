@@ -2,6 +2,7 @@
   "name": "Hassamole",
   "version": "1.0",
   "stage": "stable",
+  "url": "https://github.com/SRVB/Hassamole",
   "slug": "hassamole",
   "description": "Apache Guacamole clientless remote desktop gateway",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
