@@ -45,6 +45,7 @@ libwebsockets-dev \
 go && \
 \
 apk add --update --no-cache \
+ttf-inconsolata \
 cairo \
 libjpeg-turbo \
 libpng \
